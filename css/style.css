@@ -1,0 +1,162 @@
+body {
+  font-size: 10px;
+  color: white;
+  background-color: #5B6066;
+  font-family: 'Segment14';
+  font-weight: normal;
+  font-style: normal; 
+}
+.column {
+  float: left;
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #5A7194;
+  color: #5B6066;
+}
+.columnwide {
+  float: left;
+  width: 340px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #5A7194;
+  color: #5B6066;
+}
+h2 {
+  font-size: 15px; 
+  color: black;
+}
+.control_box{
+  background-color: #76A1CF;
+  border: 1px black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  overflow: auto;
+}
+.sensor_h{
+  float: left; 
+  width:  300px; 
+  height: 20px;
+  margin:  4px; 
+  background-color: red;
+  border-radius: 10px;
+}
+.sensor_v{
+  float: left; 
+  width:  20px; 
+  height: 80px;
+  margin:  4px; 
+  background-color: red;
+  border-radius: 10px;
+}
+.nav_but{
+  float: left; 
+  width:  80px; 
+  height: 80px;
+  line-height: 80px;
+  margin:  4px; 
+  text-align: center; 
+  background-color: #6390BF;
+  border-radius: 10px;
+  font-size: 8px;
+  color: white;
+}
+.nav_but:hover{
+  float: left; 
+  width:  80px; 
+  height: 80px;
+  line-height: 80px;
+  margin:  4px; 
+  text-align: center; 
+  background-color: white;
+  border-radius: 10px;
+  font-size: 8px;
+  color: #6390BF;
+}
+.mood_but
+{
+  width: 160px;
+    height: 54px;
+    border-radius:  10px;
+    background-color: #6390BF;
+    font-family: 'Segment14';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+.mood_but:hover
+{
+  width: 160px;
+    height: 54px;
+    border-radius:  10px;
+    background-color: white;
+    font-family: 'Segment14';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    color: #6390BF;
+}
+
+.toggle_but
+{
+  width: 160px;
+    height: 54px;
+    border-radius:  10px;
+    background-color: #6390BF;
+    font-family: 'Segment14';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.toggle_but:hover
+{
+  width: 160px;
+    height: 54px;
+    border-radius:  10px;
+    background-color: white;
+    font-family: 'Segment14';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    color: #6390BF;
+}
+
+.speak_but{
+  width: 160px;
+    height: 54px;
+    border-radius:  10px;
+    background-color: #6390BF;
+    font-family: 'Segment14';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+.video{
+  width: 240px;
+  height: 320px;
+  margin: 5px;
+  padding: 5px;
+  background: #6390BF;
+}

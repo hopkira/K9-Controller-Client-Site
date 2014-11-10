@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<title>K9 Controller</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/segment14" rel="stylesheet" type="text/css"/> 
+</head>
+<body>
+<!-- Start your code here -->
+ 
+  <div class="status_bar"><h1>Status Bar</h1></div>
+  
+    <div class="column"><h2>Audio Control</h2>
+      <div class="control_box">Audio Telemetry<br/>
+        <textarea name="speak" cols="20" rows="8" id="speech"></textarea>
+        <button class="speak_but" id="speak">Speak</button><br/>
+      </div> 
+          <div class="control_box">Individual controls
+          <button class="toggle_but" id="eyes">Eyes On</button><br/>
+          <button class="toggle_but" id="tail_h">Wag Tail Sideways</button><br/>
+          <button class="toggle_but" id="tail_v">Wag Tail Up/Down</button><br/>
+          <button class="toggle_but" id="head">Raise Head</button><br/>
+          <button class="toggle_but" id="lights">Lights On</button><br/>           
+          </div>
+  </div>
+  
+  <div class="columnwide"><h2>Spatial Control</h2>
+      <!-- <img class="video" src=http://192.168.1.8:8081/></a> -->
+      <div class ="video"></div>
+    <div class="control_box">
+        <div class="sensor_h" id="forward_sensor"></div>
+        <div class="sensor_v" id="front_left_sensor"></div>    
+        <div class="nav_but" id="forward_left">Turn Left</div>
+        <div class="nav_but" id="forward">Forward</div>
+        <div class="nav_but" id="forward_right">Turn Right</div>
+        <div class="sensor_v" id="front_right_sensor"></div>    
+        <div class="sensor_v" id="middle_left_sensor"></div> 
+        <div class="nav_but" id="spin_left">Spin Left</div>
+        <div class="nav_but" id="motors">Motors</div>
+        <div class="nav_but" id="spin_right">Spin Right</div>
+        <div class="sensor_v" id="middle_right_sensor"></div> 
+        <div class="sensor_v" id="back_left_sensor"></div> 
+        <div class="nav_but" id="reverse_left">Reverse Left</div>
+        <div class="nav_but" id="reverse">Reverse</div>
+        <div class="nav_but" id="reverse_right">Reverse Right</div>
+        <div class="sensor_v" id="back_right_sensor"></div>
+        <div class="sensor_h" id="back_sensor"></div>
+      
+    </div>
+  </div>
+  <div class="column"><h2>Emotional Control</h2>
+    <div class="control_box">
+      <button class="mood_but" id="wake_up">Wake Up</button><br/>
+      <button class="mood_but" id="welcome">Welcome</button><br/>
+      <button class="mood_but" id="happy">Happy</button><br/>
+      <button class="mood_but" id="sad">Sad</button><br/>
+      <button class="mood_but" id="scanning">Scanning</button><br/>
+      <button class="mood_but" id="defence">Maximum Defence</button><br/>
+      <button class="mood_but" id="affirmative">Affirmative</button><br/>
+      <button class="mood_but" id="sleep">Sleep</button><br/>
+      <button class="mood_but" id="negative">Negative</button><br/>
+    </div>
+  </div>
+<!-- End your code here -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
